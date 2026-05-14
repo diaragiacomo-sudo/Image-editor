@@ -1,0 +1,9 @@
+{
+  "name": "Visionary AI Studio",
+  "description": "Professional creative suite for AI image generation, advanced canvas editing, and collection management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "image_generation",
+    "firebase_integration"
+  ]
+}
