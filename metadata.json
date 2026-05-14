@@ -1,9 +1,8 @@
 {
   "name": "Visionary AI Studio",
-  "description": "Professional creative suite for AI image generation, advanced canvas editing, and collection management.",
+  "description": "Professional creative suite for AI image generation, advanced canvas editing with Fabric.js, and collection management powered by Gemini.",
   "requestFramePermissions": [],
   "majorCapabilities": [
-    "image_generation",
-    "firebase_integration"
+    "image_generation"
   ]
 }

@@ -8,7 +8,8 @@ import {
   Zap,
   Palette,
   Monitor,
-  Camera
+  Camera,
+  Grid
 } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 import { generateAIImage } from '@/src/services/geminiService';
@@ -20,10 +21,12 @@ interface GeneratorPaneProps {
 const STYLES = [
   { id: 'cinematic', name: 'Cinematografico', icon: <Monitor size={14} /> },
   { id: 'photorealistic', name: 'Fotorealistico', icon: <Camera size={14} /> },
+  { id: 'cyberpunk', name: 'Cyberpunk', icon: <Zap size={14} /> },
+  { id: 'surrealist', name: 'Surrealismo', icon: <Sparkles size={14} /> },
   { id: 'watercolor', name: 'Acquerello', icon: <Palette size={14} /> },
-  { id: 'digital-art', name: 'Arte Digitale', icon: <Sparkles size={14} /> },
-  { id: 'isometric', name: 'Isometrico', icon: <Search size={14} /> },
-  { id: '3d-render', name: '3D Render', icon: <Zap size={14} /> },
+  { id: 'oil-painting', name: 'Pittura ad Olio', icon: <Palette size={14} /> },
+  { id: 'pop-art', name: 'Pop Art', icon: <Grid size={14} /> },
+  { id: 'sketch', name: 'Bozzetto', icon: <Search size={14} /> },
 ];
 
 const RATIOS = ["1:1", "16:9", "9:16", "4:3", "3:4"];
